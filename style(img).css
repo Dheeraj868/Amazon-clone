@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+  45deg,
+  hsl(203deg 92% 47%) 0%,
+  hsl(202deg 69% 52%) 6%,
+  hsl(197deg 58% 52%) 13%,
+  hsl(189deg 48% 52%) 22%,
+  hsl(177deg 43% 51%) 32%,
+  hsl(165deg 48% 53%) 42%,
+  hsl(155deg 54% 55%) 53%,
+  hsl(147deg 61% 56%) 65%,
+  hsl(140deg 70% 57%) 77%,
+  hsl(136deg 79% 56%) 89%,
+  hsl(134deg 88% 54%) 100%
+);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.loginpage{
+  height: 400px;
+  width: 400px;
+  border: 3px solid black;
+  margin-left: 43%;
+  margin-top: 17%;
+  background: rgb(58,167,180);
+  background: linear-gradient(77deg, rgba(58,167,180,1) 0%, rgba(29,253,220,0.8548669467787114) 50%, rgba(252,176,69,1) 100%);
+  box-shadow: 20px 20px 50px black;
+  border-radius: 25px;
+}
+
+h2{
+  justify-content: center;
+  text-align: center;
+}
+.username{
+  padding-left: 5px;
+  text-align: center;
+}
+#Username{
+  width: 350px;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.password{
+  padding-top: 15px;
+  padding-left: 5px;
+  text-align: center;
+
+}
+#Password{
+  width: 350px;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+#sign{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+#Forgot{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+  
